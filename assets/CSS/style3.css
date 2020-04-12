@@ -1,0 +1,31 @@
+/*style sheet for form*/
+#box3 {
+    box-sizing: border-box;
+    float: left;
+    margin: 40px 240px 90px 150px;
+    border: 1px solid;
+    padding: 40px 60px 60px 60px;
+    display: block;
+    border-color: #dddddd;
+    background-color: #ffffff;
+}
+.headposition {
+    margin: 30px -150px -35px 140px;
+    padding: -50px 30px 0px 30px;
+}
+
+.box {
+    margin: -55px 80px 10px 100px;
+}
+
+.position {
+    margin: 70px 10px 10px 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.boxstyle {
+    background-color: #ffffff;
+    color: #777777;
+    padding: 10px 60px 20px 10px;
+    margin: 0px 0px 0px 0px;
+}

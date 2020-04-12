@@ -1,0 +1,122 @@
+/*header style linked to all pages*/
+.header1 {
+    margin: 0px;
+    width: 100%;
+    border: 0px;
+    padding: 80px 0px 0px 0px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    border-bottom: 1px solid #cccccc;
+} 
+/* container style for main body */
+.box {
+    box-sizing: border-box;
+    float: left;
+    width: 15%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 240px;
+    margin-bottom: auto;
+    margin-top: -20px;
+    
+}   
+/*background wallpaper */
+body {
+    background-image: url("../images/y-so-serious/y-so-serious.png");
+}
+/*anchor style to chage font color and remove underline*/
+a {
+    color: #777777;
+    text-decoration: none;
+    
+}
+/*image style*/
+.hero-images {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 10x 10px 10px 40px;
+    margin: 10px 10px 10px 2px;
+}
+/*move links to the right of page*/
+#right {
+    margin-left: 200px;
+    padding-left: 55%;
+    padding-bottom: 40px;
+    
+}
+/*style p tags*/
+p {
+    color: #777777;
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#box {
+    box-sizing: border-box;
+    float: left;
+    margin: 40px 240px 90px 240px;
+    border: 1px solid;
+    padding: 40px 60px 60px 60px;
+    display: block;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    
+}
+
+.aboutMe {
+    color: #4aaaa5;
+    font-size: 40px;
+    margin-top: 1px;
+}
+/*footer linked to all pages*/
+.fo-container {
+    padding: 60px 0px 5px 0px ;
+    margin: 100px 0px 0px 0px;
+    border-top: 8px solid #4aaaa5;
+    clear: both;
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #666666;
+    color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    #logo {
+      width: 100%;
+      padding: 10px;
+  
+      
+    }
+    header {
+      margin-bottom: 10px;
+      
+    }
+    #right {
+        text-align: center;
+    }
+  
+    #masthead {
+      width: 100%; 
+      padding: 10px; 
+      margin: auto;
+    }
+  
+    nav {
+      width: 100%;
+      padding: 0px 10px 0px 0px;
+      text-align: center;
+    }
+  
+  
+   
+  }
