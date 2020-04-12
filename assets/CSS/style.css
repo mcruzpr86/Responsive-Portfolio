@@ -245,7 +245,7 @@ input[type=submit] {
 
 }
 
-/* for screens within 768 to 980px */
+/* for screens within 640 to 768px */
 @media screen and (min-width: 640px) and (max-width: 768px) {
 
   header {
@@ -285,7 +285,7 @@ footer {
 
 }
 
-/* for screens within 768 to 980px */
+/* for screens under 640x */
 @media screen and (max-width: 640px) {
   #logo {
     width: 100%;
