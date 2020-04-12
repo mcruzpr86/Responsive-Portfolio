@@ -216,6 +216,8 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* Medie Queries */
+
 @media screen and (mix-width: 768px) and (max-width: 980px) {
   #logo {
     width: 100%;
